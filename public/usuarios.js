@@ -3,7 +3,7 @@ let usuarioActual = null;
 let tablaActual = null;
 
 // URL del servidor backend
-const API_URL = 'http://localhost:3000/api';
+const API_URL = 'https://pef-2pzu.onrender.com/api';
 
 // Verificar autenticación al cargar la página
 window.addEventListener('DOMContentLoaded', function() {
