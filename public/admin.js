@@ -201,9 +201,7 @@ function crearTarjetaTabla(tabla, tipo, index) {
         <h3>${tabla.nombre}</h3>
         <p><strong>Tipo:</strong> ${tipoTexto}</p>
         <p><strong>Listas:</strong> ${tabla.listas.length}</p>
-        <button class="btn btn-danger" style="margin-top: 10px;" onclick="event.stopPropagation(); eliminarTabla('${tipo}', ${index})">
-            🗑️ Eliminar
-        </button>
+        <button class="btn btn-danger" style="margin-top: 10px;" onclick="event.stopPropagation(); eliminarTabla('${tipo}', ${index})">Eliminar</button>
     `;
     
     card.onclick = () => editarTabla(tipo, index);
